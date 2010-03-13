@@ -1,0 +1,45 @@
+{
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/Dist-Zilla-Plugin-OverridableMakeMaker/",
+      "repository" : "http://github.com/avar/dist-zilla-plugin-overridablemakemaker",
+      "bugtracker" : "http://github.com/avar/dist-zilla-plugin-overridablemakemaker/issues",
+      "license" : "http://dev.perl.org/licenses/",
+      "Ratings" : "http://cpanratings.perl.org/d/Dist-Zilla-Plugin-OverridableMakeMaker"
+   },
+   "no_index" : {
+      "directory" : [
+         "t"
+      ]
+   },
+   "generated_by" : "Dist::Zilla version 1.100711",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "0.01",
+   "name" : "Dist-Zilla-Plugin-OverridableMakeMaker",
+   "author" : [
+      "\u00c3\u0086var Arnfj\u00c3\u00b6r\u00c3\u00b0 Bjarmason <avar@cpan.org>"
+   ],
+   "license" : "perl",
+   "build_requires" : {},
+   "requires" : {
+      "Dist::Zilla::Role::TextTemplate" : "0",
+      "namespace::autoclean" : "0",
+      "Data::Dumper" : "0",
+      "Dist::Zilla::Role::BuildRunner" : "0",
+      "Dist::Zilla::File::InMemory" : "0",
+      "Dist::Zilla::Role::TestRunner" : "0",
+      "Moose::Autobox" : "0",
+      "Test::More" : "0",
+      "Dist::Zilla::Role::InstallTool" : "0",
+      "List::MoreUtils" : "0",
+      "Moose" : "0",
+      "Dist::Zilla::Role::FixedPrereqs" : "0"
+   },
+   "abstract" : "build a Makefile.PL that uses ExtUtils::MakeMaker",
+   "configure_requires" : {
+      "ExtUtils::MakeMaker" : "6.11"
+   }
+}
+

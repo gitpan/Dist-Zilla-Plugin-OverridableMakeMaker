@@ -1,0 +1,4 @@
+DESCRIPTION
+    This plugin will produce an ExtUtils::MakeMaker-powered Makefile.PL for
+    the distribution. If loaded, the Manifest plugin should also be loaded.
+
